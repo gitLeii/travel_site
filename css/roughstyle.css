@@ -1,0 +1,341 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+*
+{   
+	margin:0px;
+	outline:0;
+	padding:0px;
+}
+
+.teal 
+{
+    position: absolute;
+    background: #00BDBB;
+    width: 100%;
+    height: 75px;
+    top: 0px;
+	
+}
+.teal .teal-left
+{
+    display: flex;
+    margin-left: 70.3%;
+   
+}
+.teal-left ul
+{
+    padding: 10px;
+}
+.teal-left ul li 
+{
+    list-style: none;
+    display: inline;
+}
+.teal-left ul a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.teal-left .connect ul li a:hover
+{
+	animation:wobble;
+	animation-duration:1s;
+	animation-delay:0s;
+	animation-iteration-count:1;
+}
+.teal .teal-left ul li .conn
+{
+    color: #fff ;
+    padding: 5px ;
+    
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover 
+{
+    color: #000;
+}
+.navbar-nav.ml-auto 
+{
+    margin-right: 125px;
+}
+.bg-light 
+{
+    background-color: #fff !important;
+	z-index:1;
+	height:84px;
+    top:40px;
+    width: 87%;
+    margin: auto;
+}
+.navbar-expand-lg .navbar-nav .nav-link 
+{
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+.bg-light:hover .nav-item:last-child 
+{
+
+    border-right:1px solid #5ebbc2;
+	border-radius:24px;
+
+}
+.nav-item:last-child 
+{
+
+    border-right:1px solid #00BDBB;
+	transition:0.2s;
+
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link 
+{
+    color: #00BDBB;
+	font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    color: #636a6b;
+	font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #00BDBB;
+	font-weight:600;
+}
+.navbar-brand .expo 
+{
+    font-size: 33px;
+	color:#fff;
+	font-family: 'Barriecito', cursive;
+	float:left;
+	font-weight:600;
+	background:#00BDBB;
+	border-radius: 30px;
+    padding: 0px 3px;
+	
+}
+.navbar-brand .travel 
+{
+    font-size: 30px;
+    color:#636a6b;
+	font-family: 'Mountains of Christmas', cursive;
+    font-weight:600;
+	padding:2px;
+}
+
+
+
+
+.top 
+{
+    background: transparent;
+    width: 100%;
+	margin-top:-9px;
+}
+.top .top-main
+{	
+	height:662px;
+	width:100%;
+	background:linear-gradient(to bottom, #267278, #39878d, #4b9ca2, #5db2b8, #6fc8ce);
+	position:relative;
+	
+}
+.top-main #carouselExampleControls ,.carousel,.slide ,.carousel-inner,.carousel-item
+{
+    height: 100%;
+}
+
+.dark 
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+.cover
+{
+	position:absolute;
+	background:#323233;
+	width:100%;
+	height:100%;
+	top:0px;
+	opacity:0.5;
+}
+
+
+
+.filter-box 
+{
+    background: #111112ed;
+    margin-top: -72px;
+    position: relative;
+    opacity: 1;
+    width: 81%;
+    margin-left:9%;
+}
+.filter-box .cols
+{
+    display: flex;
+    height: 100%;
+    width: 88%;
+    margin: auto;
+}
+.content-desc
+{
+    padding: 5%;
+    color: #939393;
+}
+.content-box 
+{
+    padding: 22px 0 50px 0;
+}
+.content-box select
+{
+    width:95%;
+    padding: 3%;
+    border-radius: 22px;
+    -webkit-appearance: none;
+}
+.btn.btn-primary.btn-lg 
+{
+    width: 95%;
+    border-radius: 24px;
+    padding:3%;
+    background:palevioletred;
+    border-color: palevioletred;
+    font-size: 18px;
+}
+.btn.btn-primary.btn-lg:hover
+{
+    background:#ED5B9B;
+    border-color: #ED5B9B;
+}
+.select-button
+{
+    padding: 69px 0 0px 0;
+}
+
+
+
+
+
+.second-div
+{
+	height:147px;
+}
+.top-space
+{
+	background:transparent;
+	height:34px;
+	width:100%;
+}
+.header
+{
+	margin:auto;
+	width:47rem;
+}
+.top-line
+{
+	height:1px;
+	background: #d3a3b6;
+	width:100%;
+	position:relative;
+	top:47px;
+}
+
+.clr
+{
+	clear:both;
+}
+.header .banner-menu
+{
+	float:left;
+	background-color:#fff;
+	position:relative;
+	width:720px;
+	top:3px;
+	z-index:1;
+}
+.menu-top ul
+{
+	margin-bottom: 0px;
+}
+.menu-top ul li
+{
+	list-style:none;
+	background:url(../image/menu-top.png) no-repeat;
+	margin-right:22px;
+	float:left;
+	width:84px;
+	height:80px;
+	text-align:center;
+	padding:14px 10px 0;
+
+	
+}
+.menu-top ul a
+{
+	color:#f725c2;
+	font-size:14px;
+    font-family: 'Handlee', cursive;
+	text-decoration:none;
+	transition: all 0.3s linear 0s;
+	
+
+}
+.menu-top ul li:last-child
+{
+	margin-right:0px;
+}
+
+.menu-top ul li.active a , .menu-top ul li:hover a
+{
+	color:#fff;
+}
+.menu-top ul li:hover 
+{
+    background-position: -84px 0px;
+}
+.menu-top ul li.active 
+{
+    background-position: -167px 0px;
+}
+.menu-top ul li:first-child:hover {
+
+    background-position: -84px 0px;
+
+}
+.clr
+{
+	clear:both;
+}
+
+
+
+.destinations-grid
+{
+	width:100%;
+	background: rgba(99,106,107,0.10);
+	display: flex;
+}
+
+.dest-box
+{
+	padding: 0 4% ;
+}
+.dest-box img
+{
+	width: 100%;
+	height: 300px;
+}
+
+
+
+
+
+

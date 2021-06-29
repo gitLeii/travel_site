@@ -1,0 +1,314 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barriecito&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mountains+of+Christmas&display=swap');
+*
+{   
+	margin:0px;
+	outline:0;
+	padding:0px;
+}
+
+.teal 
+{
+    position: absolute;
+    background: #00BDBB;
+    width: 100%;
+    height: 75px;
+    top: 0px;
+	
+}
+
+.teal-left
+{   
+	display:flex;
+	position:absolute;
+	right:261px;
+	top:10px;
+}
+.connect 
+{
+
+    color: #fff;
+    font-size: 14px;
+    padding: 6px;
+
+}
+.teal .teal-left ul li
+{
+	list-style:none;
+	float:left;
+	height:30px;
+	width:30px;
+	text-align:center;
+	padding:5px;
+	margin-left:-8px;
+	
+}
+.teal .teal-left ul a
+{
+	text-decoration:none;
+	color:#fff;
+}
+.teal-left ul li a:hover
+{
+	animation:wobble;
+	animation-duration:1s;
+	animation-delay:0s;
+	animation-iteration-count:1;
+}
+.teal .teal-left ul
+{
+	padding:0px;
+	margin:0px;
+}
+.phone 
+{
+    margin-left: 14px;
+}
+.phone ul li
+{
+	list-style:none;
+}
+.phone ul li a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+.phone ul li a:hover
+{
+	animation:tada;
+	animation-duration:1s;
+	animation-delay:0s;
+	animation-iteration-count:2;
+}
+.phone .num 
+{
+    font-size: 12px;
+}
+
+
+
+
+
+.navbar-light .navbar-nav .nav-link:hover 
+{
+    color: #000;
+}
+.navbar-nav.ml-auto 
+{
+    margin-right: 125px;
+}
+.bg-light 
+{
+    background-color: #fff !important;
+	z-index:1;
+	height:84px;
+	top:40px;
+}
+.navbar-expand-lg .navbar-nav .nav-link 
+{
+    padding-right: 1.5rem;
+    padding-left: 0.5rem;
+}
+.bg-light:hover .nav-item:last-child 
+{
+
+    border-right:1px solid #5ebbc2;
+	border-radius:24px;
+
+}
+.nav-item:last-child 
+{
+
+    border-right:1px solid #00BDBB;
+	transition:0.2s;
+
+}
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link 
+{
+    color: #00BDBB;
+	font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link 
+{
+    color: #636a6b;
+	font-weight:600;
+}
+.navbar-light .navbar-nav .nav-link:hover
+{
+    color: #00BDBB;
+	font-weight:600;
+}
+.navbar-brand .expo 
+{
+    font-size: 33px;
+	color:#fff;
+	font-family: 'Barriecito', cursive;
+	float:left;
+	font-weight:600;
+	background:#00BDBB;
+	border-radius: 30px;
+    padding: 0px 3px;
+	
+}
+.navbar-brand .travel 
+{
+    font-size: 30px;
+    color:#636a6b;
+	font-family: 'Mountains of Christmas', cursive;
+    font-weight:600;
+	padding:2px;
+}
+
+
+
+
+.top 
+{
+    background: transparent;
+    width: 100%;
+	margin-top:-9px;
+}
+.top .top-main
+{	
+	height:662px;
+	width:100%;
+	background:linear-gradient(to bottom, #267278, #39878d, #4b9ca2, #5db2b8, #6fc8ce);
+	position:relative;
+	
+}
+.top-main #carouselExampleControls ,.carousel,.slide ,.carousel-inner,.carousel-item
+{
+    height: 100%;
+}
+
+.dark 
+{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+
+}
+.cover
+{
+	position:absolute;
+	background:#323233;
+	width:100%;
+	height:100%;
+	top:0px;
+	opacity:0.5;
+}
+.filter-box 
+{
+
+    height: 169px;
+    background: black;
+    margin-top: -72px;
+    position: relative;
+    opacity: 0.8;
+
+}
+
+
+
+
+.second-div
+{
+	height:147px;
+}
+.top-space
+{
+	background:transparent;
+	height:34px;
+	width:100%;
+}
+.header
+{
+	margin:auto;
+	width:1000px;
+}
+.top-line
+{
+	height:1px;
+	background: #d3a3b6;
+	width:100%;
+	position:relative;
+	top:47px;
+}
+
+.clr
+{
+	clear:both;
+}
+.header .banner-menu
+{
+	float:left;
+	background-color:#fff;
+	position:relative;
+	width:720px;
+	top:3px;
+	z-index:1;
+}
+.menu-top ul
+{
+	margin-bottom: 0px;
+}
+.menu-top ul li
+{
+	list-style:none;
+	background:url(../image/menu-top.png) no-repeat;
+	margin-right:22px;
+	float:left;
+	width:84px;
+	height:80px;
+	text-align:center;
+	padding:14px 10px 0;
+
+	
+}
+.menu-top ul a
+{
+	color:#f725c2;
+	font-size:14px;
+    font-family: 'Handlee', cursive;
+	text-decoration:none;
+	transition: all 0.3s linear 0s;
+	
+
+}
+.menu-top ul li:last-child
+{
+	margin-right:0px;
+}
+
+.menu-top ul li.active a , .menu-top ul li:hover a
+{
+	color:#fff;
+}
+.menu-top ul li:hover 
+{
+    background-position: -84px 0px;
+}
+.menu-top ul li.active 
+{
+    background-position: -167px 0px;
+}
+.menu-top ul li:first-child:hover {
+
+    background-position: -84px 0px;
+
+}
+.clr
+{
+	clear:both;
+}
+
+
+
+
+
+
+
